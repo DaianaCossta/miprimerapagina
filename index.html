@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <script src="https://kit.fontawesome.com/b0db205435.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+<script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <!--barra de navegacion--> 
+
+    <header id="encabezado">
+        <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+        <nav>
+            <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#acerca">Acerca de mi</a></li>
+                <li><a href="#trabajos">Trabajos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <!--presentacion-->
+    <main id="seccion-principal">
+        <section class="seccion-1">
+            <div class="acerca-de">
+                <h2> ¡Hola!</h2>
+                <p>¡Bienvenido a mi página! Me llamo Daiana, soy de Paysandú, Uruguay y me apasiona la cocina, te espero para conectar a través de la comida.</p>
+            </div>
+            <div class="acerca-imagen">
+                <img src="img/cafe.jpg" alt="imagen portada" width="300px" height="400px" />
+            </div>
+        </section>
+        <!--imagen divisoria-->
+        <section class= "seccion-2">
+            <img src="img/joanna-kosinska-Prfs32wh-o4-unsplash.jpg" alt="imagen carrusel">
+        </section>
+        <!--tarjetas recetario-->
+    <div class="container">
+        <div class="card-container">
+            <div class="card">
+                <h4>Torta de vainilla</h4>
+                <img src="img/torta-de-vainilla-foto-principal.jpg">
+                <span class="text">Torta rápida para disfrutar la merienda. Ingredientes sencillos y un toque crocante que le dá su diferencia.</span>
+                <button>Leer más</button>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <h4>Tarta de pollo</h4>
+                <img src="img/tarta-de-pollo-foto-principal.webp">
+                <span class="text">Tarta llena de sabores y texturas, masa suave y quebradiza con un relleno super húmedo y rico.</span>
+                <button>Leer más</button>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <h4>Galletas de avena</h4>
+                <img src="img/galletas-de-avena-con-chocolate-foto-principal.webp">
+                <span class="text">Galletas deliciosas y saludables, bajo contenido de azúcar, se puede dar el topping que más les guste.</span>
+                <button>Leer más</button>
+            </div>
+        </div>
+    </div>
+       
+    </main>
+    <!--pie de pagina, contactos-->
+    <footer id="contacto">
+        <div id="footer">
+        <h3>Contacto</h3>
+        <nav>
+            <ul>
+                <li>daiianacosta13@hotmail.com</li>
+                <li>Paysandú, Uruguay</li>
+            </ul>
+        </nav>
+         </div>
+    </footer>
+
+
+
+</body>
+
+</html>
